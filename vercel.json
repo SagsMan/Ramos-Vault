@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm --filter @workspace/ramosvault run build",
+  "outputDirectory": "artifacts/ramosvault/dist/public",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
