@@ -7,18 +7,10 @@ import { defineConfig } from "vite";
     base: "/",
     plugins: [react(), tailwindcss()],
     resolve: {
-      alias: {
-        "@": path.resolve(import.meta.dirname, "src"),
-      },
+      alias: { "@": path.resolve(import.meta.dirname, "src") },
       dedupe: ["react", "react-dom"],
     },
-    build: {
-      outDir: "dist/public",
-      emptyOutDir: true,
-    },
-    server: {
-      port: 3000,
-      host: "0.0.0.0",
-    },
+    build: { outDir: "dist/public", emptyOutDir: true },
+    server: { port: 3000, host: "0.0.0.0" },
   });
   
