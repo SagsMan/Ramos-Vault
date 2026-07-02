@@ -95,7 +95,7 @@ export default function Login() {
           <div className="absolute bottom-1/4 right-1/4 w-48 h-48 rounded-full bg-white" />
         </div>
         <div className="relative text-center text-white max-w-sm">
-          <img src="/logo-gold.jpeg" alt="RamosVault" className="w-64 mx-auto mb-6 rounded-2xl object-contain" />
+          <img src="/logo-gold.png" alt="RamosVault" className="w-64 mx-auto mb-6 object-contain" />
           <p className="text-white/80 mb-2 font-medium">Secure. Fast. Reliable.</p>
           <p className="text-white/60 text-sm mb-8">Access premium digital accounts trusted by 100K+ users worldwide.</p>
           <div className="space-y-3">
