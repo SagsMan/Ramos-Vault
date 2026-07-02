@@ -30,11 +30,8 @@ export default function Login() {
       {/* Left: Form */}
       <div className="flex-1 flex flex-col justify-center px-6 py-12 max-w-md mx-auto lg:mx-0 w-full">
         <div className="mb-8">
-          <Link href="/" className="inline-flex items-center gap-2 mb-8">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <ShieldCheck className="h-5 w-5 text-primary-foreground" />
-            </div>
-            <span className="font-bold text-lg">RamosVault</span>
+          <Link href="/" className="inline-flex items-center mb-8">
+            <img src="/logo-horizontal.png" alt="RamosVault" className="h-9 w-auto dark:invert" />
           </Link>
           <h1 className="text-2xl font-bold">Welcome back</h1>
           <p className="text-muted-foreground mt-1 text-sm">Sign in to access your RamosVault account</p>
@@ -98,10 +95,7 @@ export default function Login() {
           <div className="absolute bottom-1/4 right-1/4 w-48 h-48 rounded-full bg-white" />
         </div>
         <div className="relative text-center text-white max-w-sm">
-          <div className="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center mx-auto mb-6">
-            <ShieldCheck className="h-8 w-8 text-white" />
-          </div>
-          <h2 className="text-3xl font-bold mb-3">RamosVault</h2>
+          <img src="/logo-gold.jpeg" alt="RamosVault" className="w-64 mx-auto mb-6 rounded-2xl object-contain" />
           <p className="text-white/80 mb-2 font-medium">Secure. Fast. Reliable.</p>
           <p className="text-white/60 text-sm mb-8">Access premium digital accounts trusted by 100K+ users worldwide.</p>
           <div className="space-y-3">

@@ -46,11 +46,8 @@ export default function Register() {
     <div className="min-h-screen flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-md">
         <div className="mb-8 text-center">
-          <Link href="/" className="inline-flex items-center gap-2 justify-center mb-6">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <ShieldCheck className="h-5 w-5 text-primary-foreground" />
-            </div>
-            <span className="font-bold text-lg">RamosVault</span>
+          <Link href="/" className="inline-flex items-center justify-center mb-6">
+            <img src="/logo-horizontal.png" alt="RamosVault" className="h-9 w-auto dark:invert" />
           </Link>
           <h1 className="text-2xl font-bold">Create your account</h1>
           <p className="text-muted-foreground mt-1 text-sm">Join 100,000+ users buying premium accounts</p>

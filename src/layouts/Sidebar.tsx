@@ -60,14 +60,8 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
       )}>
         {/* Header */}
         <div className="flex h-16 items-center justify-between px-4 border-b border-sidebar-border flex-shrink-0">
-          <Link href="/" onClick={onClose} className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <ShieldCheck className="h-5 w-5 text-primary-foreground" />
-            </div>
-            <div>
-              <p className="font-bold text-sidebar-foreground text-sm leading-none">RamosVault</p>
-              <p className="text-[10px] text-sidebar-foreground/50 mt-0.5">Secure. Fast. Reliable.</p>
-            </div>
+          <Link href="/" onClick={onClose} className="flex items-center">
+            <img src="/logo-horizontal.png" alt="RamosVault" className="h-8 w-auto" style={{ filter: 'brightness(0) invert(1)' }} />
           </Link>
           <button onClick={onClose} className="lg:hidden p-1.5 rounded-lg hover:bg-sidebar-accent text-sidebar-foreground/60 hover:text-sidebar-foreground transition-colors">
             <X className="h-4 w-4" />
